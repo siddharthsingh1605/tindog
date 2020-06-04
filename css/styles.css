@@ -30,6 +30,13 @@
   position: absolute;
 }
 
+@media (max-width: 1020px) {
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
 #pricing {
   text-align: center;
 }
